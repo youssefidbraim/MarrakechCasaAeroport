@@ -49,6 +49,12 @@ public class ClientController {
 		return "hotel";
 	}
 	
+	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	public String showContactPage(ModelMap model) {
+		model.put("name", getLoggedinUserName());
+		return "contact";
+	}
+	
 
 	private String getLoggedinUserName() {
 		Object principal = SecurityContextHolder.getContext()
