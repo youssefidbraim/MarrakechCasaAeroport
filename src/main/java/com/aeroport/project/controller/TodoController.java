@@ -110,6 +110,8 @@ public class TodoController {
 		model.put("name", getLoggedinUserName());
 		return "dashboard";
 	}
+	
+
 
 	private String getLoggedinUserName() {
 		Object principal = SecurityContextHolder.getContext()
