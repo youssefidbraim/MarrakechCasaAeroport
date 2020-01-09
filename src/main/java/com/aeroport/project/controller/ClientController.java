@@ -2,6 +2,9 @@ package com.aeroport.project.controller;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import javax.validation.Valid;
+
 import org.springframework.security.core.userdetails.UserDetails;
 
 
@@ -18,14 +21,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.aeroport.project.model.Client;
 import com.aeroport.project.model.Todo;
+import com.aeroport.project.service.IClientService;
 import com.aeroport.project.service.ITodoService;
 
 @Controller
 public class ClientController {
 
 	@Autowired
-	private ITodoService todoService;
+	private IClientService clientService;
 
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
@@ -55,6 +60,17 @@ public class ClientController {
 		return "contact";
 	}
 	
+	
+	@RequestMapping(value = "/addcontact", method = RequestMethod.POST)
+	public String addTodo(ModelMap model, @Valid Client client, BindingResult result) {
+
+		if (result.hasErrors()) {
+			return "AddClient";
+		}
+
+		clientService.saveClient(client);
+		return "redirect:/";
+	}
 
 	private String getLoggedinUserName() {
 		Object principal = SecurityContextHolder.getContext()

@@ -7,7 +7,7 @@
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
             <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Hotel</span></p>
             <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"> INSCRIPTION</h1>
-              INSCRIPTION
+              <h1>INSCRIPTION
               </h1>
           </div>
         </div>
@@ -20,16 +20,18 @@
   INSCRIPTION
   </h2>
         <div class="row block-9">
+        <form:form method="post" modelAttribute="client">
+        <form:hidden path="id" />
           <div class="col-md-6 ">
-            <form method="post" action="saveClt" enctype="multipart/form-data">
+            
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="NOM *">
+                <form:input path="nom" type="text" class="form-control" placeholder="NOM *" />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="PRÉNOM *">
+                <form:input path="prenom" type="text" class="form-control" placeholder="PRÉNOM *"/>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Email">
+                <form:input path="email" type="text" class="form-control" placeholder="Email"/>
               </div>
           
           </div>
@@ -38,21 +40,21 @@
           
            
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="TÉLÉPHONE PORTABLE *">
+              <form:input path="telephone" type="text" class="form-control" placeholder="TÉLÉPHONE PORTABLE *"/>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Psuedo">
+              <form:input path="login" type="text" class="form-control" placeholder="Psuedo" />
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Mot de passe">
+              <form:input path="password" type="text" class="form-control" placeholder="Mot de passe" />
             </div>
             <div class="form-group">
-              <input type="submit" value="S'inscrire" class="btn btn-primary py-3 px-5">
+              <form:input path="description" type="submit" value="S'inscrire" class="btn btn-primary py-3 px-5" />
             </div>
-          </form>
+            </div>
+          </form:form>
 
 
-          </div>
         </div>
       </div>
     </section>

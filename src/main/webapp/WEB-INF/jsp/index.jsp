@@ -37,8 +37,12 @@
               			<div class="col-md align-items-end">
               				<div class="form-group">
               					<label for="#">Lieu de d�part:</label>
+              						<div class="form-field">
+	              					<div class="icon"><span class="icon-map-marker"></span></div>
+					                 <input type="text" id="searchbox" class="form-control" placeholder="From">
+					              </div>
 	              				
-							         <input type="text" id="searchbox" class="form-control" >
+							        
 							      
 				              </div>
               			</div>
@@ -47,7 +51,7 @@
               					<label for="#">Lieu d'arriv�e:</label>
               					<div class="form-field">
 	              					<div class="icon"><span class="icon-map-marker"></span></div>
-					                <input type="text" class="form-control" placeholder="Where">
+					                <input type="text" id="searchbox2" class="form-control" placeholder="Where">
 					              </div>
 				              </div>
               			</div>
@@ -106,8 +110,11 @@
               		</div>
               
            <center>
+           <div  id="map" style="width:800px; height: 600px; margin-top: 10px;">
            </center>
-            
+
+   
+  </div>            
               		
 �tapes � suivre : <br> 
 <button type="button" class="btn btn-warning">1.</button> INDIQUEZ VOTRE ITINERAIRE 
