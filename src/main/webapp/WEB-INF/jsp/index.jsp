@@ -117,22 +117,90 @@
               			
               			
               			
-              			<div id="map-canvas" style="width:100%;height:200px;"></div>
+              			<div id="map" style="width:100%;height:200px;"></div>
 <script
     src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-<script>
-var map;
-function initialize() {
-  var mapOptions = {
-    zoom:6,
-    center: new google.maps.LatLng(31.662493, -8.009160)
-  };
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
-}
+ <script>
+            window.onload = function () {
+                $("#l1").addClass("active");
+            };
 
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+            var map;
+            var marker;
+            var centerPosition;
+            function initMap() {
+                centerPosition = {lat: 31.663738, lng: -7.968356};
+                var geocoder = new google.maps.Geocoder;
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: centerPosition,
+                    zoom: 6
+                });
+                var infoWindow = new google.maps.InfoWindow({map: map});
+                // Try HTML5 geolocation.
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function (position) {
+                        var pos = {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude
+                        };
+                        centerPosition = pos;
+                        addMarker(centerPosition);
+                        document.getElementById('formId:lat').setAttribute("value", "" + centerPosition.lat);
+                        document.getElementById('formId:lng').setAttribute("value", "" + centerPosition.lng);
+                        geocodeLatLng(geocoder, map, infoWindow, pos);
+                    }, function () {
+                        handleLocationError(true, infoWindow, map.getCenter());
+                    });
+                } else {
+                    // Browser doesn't support Geolocation
+                    handleLocationError(false, infoWindow, map.getCenter());
+                }
+                map.addListener('click', function (event) {
+                    centerPosition = event.latLng;
+                    document.getElementById('formId:lat').setAttribute("value", "" + centerPosition.lat());
+                    document.getElementById('formId:lng').setAttribute("value", "" + centerPosition.lng());
+                    addMarker(event.latLng);
+                    geocodeLatLng(geocoder, map, infoWindow, event.latLng);
+
+                });
+            }
+
+            function addMarker(location) {
+                if (marker) {
+                    marker.setPosition(location);
+                } else {
+                    marker = new google.maps.Marker({
+                        position: location,
+                        map: map
+                    });
+                }
+            }
+
+            function geocodeLatLng(geocoder, map, infowindow, latlng) {
+
+                geocoder.geocode({'location': latlng}, function (results, status) {
+                    if (status === 'OK') {
+                        if (results[1]) {
+                            infowindow.setContent(results[1].formatted_address);
+                            infowindow.open(map, marker);
+                            document.getElementById('formId:address').setAttribute("value", "" + results[1].formatted_address);
+                            document.getElementById('formId:address').focus();
+                        } else {
+                            window.alert('No results found');
+                        }
+                    } else {
+                        window.alert('Geocoder failed due to: ' + status);
+                    }
+                });
+            }
+
+            function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+                infoWindow.setPosition(pos);
+                infoWindow.setContent(browserHasGeolocation ?
+                        'Error: The Geolocation service failed.' :
+                        'Error: Your browser doesn\'t support geolocation.');
+            }
+        </script>
               			
               			
               			
