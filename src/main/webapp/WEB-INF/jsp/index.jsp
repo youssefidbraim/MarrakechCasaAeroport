@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate mb-5 pb-5 text-center text-md-left" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">DÃ©couvrir <br></h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Vous emmÃ¨ne du point de dÃ©part souhaitÃ© jusquÃ  l'aÃ©roport</p>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Découvrir <br></h1>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Vous emmène du point de départ souhaité jusquÃ  l'aéroport</p>
           </div>
         </div>
       </div>
@@ -17,7 +17,7 @@
     		<div class="row no-gutters">
           <div class="col-md-12 nav-link-wrap">
             <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">RÃ©servation</a>
+              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Réservation</a>
 
               <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Hotel</a>
 
@@ -33,7 +33,7 @@
               		<div class="row">
               			<div class="col-md align-items-end">
               				<div class="form-group">
-              					<label for="#">Lieu de dÃ©part:</label>
+              					<label for="#">Lieu de départ:</label>
 	              				<div class="form-field">
 	              					<div class="icon"><span class="icon-my_location"></span></div>
 					                <input type="text" class="form-control" placeholder="From">
@@ -42,7 +42,7 @@
               			</div>
               			<div class="col-md align-items-end">
               				<div class="form-group">
-              					<label for="#">Lieu d'arrivÃ©e:</label>
+              					<label for="#">Lieu d'arrivée:</label>
               					<div class="form-field">
 	              					<div class="icon"><span class="icon-map-marker"></span></div>
 					                <input type="text" class="form-control" placeholder="Where">
@@ -51,7 +51,7 @@
               			</div>
               			<div class="col-md align-items-end">
               				<div class="form-group">
-              					<label for="#">Date de dÃ©part:</label>
+              					<label for="#">Date de départ:</label>
               					<div class="form-field">
 	              					<div class="icon"><span class="icon-map-marker"></span></div>
 					                <input type="text" class="form-control checkin_date" placeholder="Check In">
@@ -80,7 +80,7 @@
               					<label for="#">Distance </label>
               					<div class="form-field">
 	              					<div class="icon"><span class="icon-map-marker"></span></div>
-					                <input type="text" class="form-control checkout_date" placeholder="a calculÃ©e" disabled>
+					                <input type="text" class="form-control checkout_date" placeholder="a calculée" disabled>
 					              </div>
 				              </div>
               			</div>
@@ -89,7 +89,7 @@
               					<label for="#">Prix </label>
               					<div class="form-field">
 	              					<div class="icon"><span class="icon-map-marker"></span></div>
-					                <input type="text" class="form-control checkout_date" placeholder="a determinÃ©e" disabled>
+					                <input type="text" class="form-control checkout_date" placeholder="a determinée" disabled>
 					              </div>
 				              </div>
               			</div>
@@ -97,12 +97,12 @@
               			<div class="col-md align-self-end">
               				<div class="form-group">
               					<div class="form-field">
-					                <input type="submit" value="RÃ©server" class="form-control btn btn-primary">
+					                <input type="submit" value="Réserver" class="form-control btn btn-primary">
 					              </div>
 				              </div>  
               			</div>
               		</div>
-Etapes Ã  suivre : <br> 
+Étapes à suivre : <br> 
 <button type="button" class="btn btn-warning">1.</button> INDIQUEZ VOTRE ITINÃ‰RAIRE 
 <button type="button" class="btn btn-warning">2.</button> CONSULTEZ LE PRIX ET LA DISTANCE 
 <button type="button" class="btn btn-warning">3.</button> CONFIRMEZ VOTRE RÃ‰SERVATION
@@ -151,7 +151,7 @@ Etapes Ã  suivre : <br>
               			<div class="col-md align-self-end">
               				<div class="form-group">
               					<div class="form-field">
-					                <input type="submit" value="RÃ©server" class="form-control btn btn-primary">
+					                <input type="submit" value="Réserver" class="form-control btn btn-primary">
 					              </div>
 				              </div>
               			</div>
@@ -192,7 +192,7 @@ Etapes Ã  suivre : <br>
               			<div class="col-md align-self-end">
               				<div class="form-group">
               					<div class="form-field">
-					                <input type="submit" value="RÃ©server" class="form-control btn btn-primary">
+					                <input type="submit" value="Réserver" class="form-control btn btn-primary">
 					              </div>
 				              </div>
               			</div>
@@ -214,20 +214,20 @@ Etapes Ã  suivre : <br>
     		<div class="row">  
     			<div class="col-md-4">
     				<div class="intro ftco-animate">
-    					<h3><span>01</span> RÃ©servation Rapide</h3>
-    					<p>A la place d'aller chercher un moyen de transport pour aller vers l'aÃ©roport, le client peut facilement rÃ©server un moyen de transport utilisant quelques cliques.</p>
+    					<h3><span>01</span> Reservation Rapide</h3>
+    					<p>A la place d'aller chercher un moyen de transport pour aller vers l'aeroport, le client peut facilement reserver un moyen de transport utilisant quelques cliques.</p>
     				</div>
     			</div>
     			<div class="col-md-4">
     				<div class="intro ftco-animate">
     					<h3><span>02</span> Prix raisonnables</h3>
-    					<p>Les prix de la rÃ©servation sont trÃ¨s raisonnables, le client peut choisir le vÃ©hiculÃ© souhaitÃ© selon ses contraintes financiÃ¨res et celles de confort. </p>
+    					<p>Les prix de la reservation sont très raisonnables, le client peut choisir le véhiculé souhaité selon ses contraintes financières et celles de confort. </p>
     				</div>
     			</div>
     			<div class="col-md-4">
     				<div class="intro ftco-animate">
-    					<h3><span>03</span> SÃ©curitÃ© et Relaxation</h3>
-    					<p>En plus de Ã§a, les services sont associÃ©s Ã  la sÃ©curitÃ© du client et au confort complet lors de son transfert de point de dÃ©part souhaitÃ© jusqu'Ã  l'aÃ©roport. </p>
+    					<h3><span>03</span> Securité et Relaxation</h3>
+    					<p>En plus de ça, les services sont associés Ã  la sécurité du client et au confort complet lors de son transfert de point de depart souhaité jusqu'Ã  l'aeroport. </p>
     				</div>
     			</div>
     		</div>
@@ -241,16 +241,16 @@ Etapes Ã  suivre : <br>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
           <h2 class="mb-4">SERVICES</h2>
-           <p>En vue de simplifier lâ€™utilisation de nos services Ã  nos clients, nous avons mis en place un guide avec toutes les informations nÃ©cessaires pour comprendre les services proposÃ©s par notre site web. </p>
+           <p>En vue de simplifier l€'utilisation de nos services Ã  nos clients, nous avons mis en place un guide avec toutes les informations nécessaires pour comprendre les services proposés par notre site web. </p>
         
         </div>
         <div>
   				<p>
   				
-<div class="icon"><span class="icon-map-marker"></span> Localiser les aÃ©roports du Marrakech et Casablanca.</div>	 <br/>
-<div class="icon"><span class="icon-male"></span> Donner la possibilitÃ© au client de choisir le vÃ©hicule souhaitÃ© pour le mener vers lâ€™aÃ©roport Ã  partir dâ€™une liste des vÃ©hicules disponibles. </div>	  <br/>
-<div class="icon"><span class="icon-road"></span> Donner plus de dÃ©tails sur le temps dâ€™arrivÃ© et la durÃ©e entre lâ€™aÃ©roport et le point de dÃ©part choisi par notre client.</div>	<br/>
-<div class="icon"><span class="icon-usd"></span> Informer le client sur les prix du voyage de chaque type de vÃ©hicule pour quâ€™il puisse dÃ©cider le vÃ©hicule souhaitÃ© selon les contraintes financiÃ¨res et celle de la comfort.</div>	
+<div class="icon"><span class="icon-map-marker"></span> Localiser les aeroports du Marrakech et Casablanca.</div>	 <br/>
+<div class="icon"><span class="icon-male"></span> Donner la possibilité au client de choisir le véhicule souhaité pour le mener vers lâ€™aéroport Ã  partir dâ€™une liste des véhicules disponibles. </div>	  <br/>
+<div class="icon"><span class="icon-road"></span> Donner plus de détails sur le temps dâ€™arrivé et la durée entre l'aeroport et le point de départ choisi par notre client.</div>	<br/>
+<div class="icon"><span class="icon-usd"></span> Informer le client sur les prix du voyage de chaque type de véhicule pour quâ€™il puisse décider le véhicule souhaité selon les contraintes financières et celle de la comfort.</div>	
   				
   				</p>
   					</div>
@@ -324,7 +324,7 @@ Etapes Ã  suivre : <br>
 		            <div class="block-18 text-center">
 		              <div class="text">
 		                <strong class="number" data-number="2900">0</strong>
-		                <span>RÃ©servations</span>
+		                <span>Réservations</span>
 		              </div>
 		            </div>
 		          </div>
@@ -340,7 +340,7 @@ Etapes Ã  suivre : <br>
 		            <div class="block-18 text-center">
 		              <div class="text">
 		                <strong class="number" data-number="2000">0</strong>
-		                <span>Clients satisfÃ©s par service</span>
+		                <span>Clients satisfés par service</span>
 		              </div>
 		            </div>
 		          </div>
@@ -348,7 +348,7 @@ Etapes Ã  suivre : <br>
 		            <div class="block-18 text-center">
 		              <div class="text">
 		                <strong class="number" data-number="1900">0</strong>
-		                <span>Clients satisfÃ©s par prix</span>
+		                <span>Clients satisfés par prix</span>
 		              </div>
 		            </div>
 		          </div>
@@ -356,7 +356,7 @@ Etapes Ã  suivre : <br>
 		            <div class="block-18 text-center">
 		              <div class="text">
 		                <strong class="number" data-number="2300">0</strong>
-		                <span>Clients satisfÃ©s par sÃ©curitÃ© et relaxation</span>
+		                <span>Clients satisfés par sécurité et relaxation</span>
 		              </div>
 		            </div>
 		          </div>
@@ -383,9 +383,9 @@ Etapes Ã  suivre : <br>
       <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle " style="width: 170% !important" type="button" data-toggle="dropdown">Question 1
-  				<p> TrÃ¨s bonne initiative, par contre je souhaite savoir si en fin de course le chauffeur remet la facture au client ?  </p>   
+  				<p> Très bonne initiative, par contre je souhaite savoir si en fin de course le chauffeur remet la facture au client ?  </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Vous recevrez automatiquement votre facture par email aprÃ¨s votre course.   </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Vous recevrez automatiquement votre facture par email après votre course.   </textarea>
 		</div>
 	</div>
 	
@@ -393,9 +393,9 @@ Etapes Ã  suivre : <br>
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 2
-  				<p> Est ce qu'il y a des chauffeurs "femmes" ? Je prÃ©fÃ¨re Ãªtre accompagnÃ©e par une femme   </p>   
+  				<p> Est ce qu'il y a des chauffeurs "femmes" ? Je préfère Ãªtre accompagnée par une femme   </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Merci pour votre intÃ©rÃªt pour KechCasaAeroport "KCA". Pour l'instant, tous les chauffeurs sont des hommes, mais nous allons y rÃ©flÃ©chir sÃ©rieusement. Nous vous tenons au courant dans les plus brefs dÃ©lais.  </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Merci pour votre intérÃªt pour KechCasaAeroport "KCA". Pour l'instant, tous les chauffeurs sont des hommes, mais nous allons y réfléchir sérieusement. Nous vous tenons au courant dans les plus brefs délais.  </textarea>
 		</div>
 	</div>
     
@@ -413,9 +413,9 @@ Etapes Ã  suivre : <br>
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 4
-  				<p>  Comment devenir un chauffeur agrÃ©e?  </p>   
+  				<p>  Comment devenir un chauffeur agrée?  </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > envoyer votre CV Ã  recrutement@KechCasaAeroport.com ,Notre Ã©quipe vous contactera en cas de nouvelles opportunitÃ©s. </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > envoyer votre CV a  recrutement@KechCasaAeroport.com ,Notre équipe vous contactera en cas de nouvelles opportunités. </textarea>
 		</div>
 	</div>
     
@@ -423,7 +423,7 @@ Etapes Ã  suivre : <br>
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 5
-  				<p>  L'offre que vous proposez sur XX Ã  199 dh pour une navette one way : est-ce le prix par personne ou pour l'ensemble des voyageurs (nous serions 2) ? </p>   
+  				<p>  L'offre que vous proposez sur XX a 199 dh pour une navette one way : est-ce le prix par personne ou pour l'ensemble des voyageurs (nous serions 2) ? </p>   
 			  <span class="caret"></span></button>
   				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled >  le prix est par voiture. Les mini vans peuvent prendre jusqu'Ã  6 passagers. </textarea>
 		</div>
@@ -433,9 +433,9 @@ Etapes Ã  suivre : <br>
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 6
-  				<p> J'aimerais bien me renseigner Ã  propos des tarifs de transfert de Ain chok vers l'aÃ©roport International Mohammed V de Casablanca </p>   
+  				<p> J'aimerais bien me renseigner a propos des tarifs de transfert de Ain chok vers l'aéroport International Mohammed V de Casablanca </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Vous pouvez connaitre le tarifs du transfert directement Ã  partir de notre site internet. Une fois que vous aurez indiquÃ© votre itinÃ©raire, le prix de la course s'affichera automatiquement. </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Vous pouvez connaitre le tarifs du transfert directement Ã  partir de notre site internet. Une fois que vous aurez indiqué votre itinéraire, le prix de la course s'affichera automatiquement. </textarea>
 		</div>
 	</div>
     
@@ -455,7 +455,7 @@ Etapes Ã  suivre : <br>
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 8
   				<p> J'ai seulement euros Pour payer. C'est possible?  </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Nous acceptons les devises en rÃ¨glement des courses "cash". Par ailleurs, vous pouvez rÃ©gler par carte bancaire internationale si vous en disposez. </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Nous acceptons les devises en règlement des courses "cash". Par ailleurs, vous pouvez régler par carte bancaire internationale si vous en disposez. </textarea>
 		</div>
 	</div>
     
@@ -463,9 +463,9 @@ Etapes Ã  suivre : <br>
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 9
-  				<p>  le service Ã  Agadir est disponible?  </p>   
+  				<p>  le service a Agadir est disponible?  </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled >  Notre service est disponible sur Casablanca et Marrakech, par contre vous pouvez bien nous contacter sur reservation@KechCasaAeroport.com pour traiter au prÃ¨s votre besoin . </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled >  Notre service est disponible sur Casablanca et Marrakech, par contre vous pouvez bien nous contacter sur reservation@KechCasaAeroport.com pour traiter au près votre besoin . </textarea>
 		</div>
 	</div>
     
@@ -475,7 +475,7 @@ Etapes Ã  suivre : <br>
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 10
   				<p> Avez-vous des voitures pour 7 passagers ? ou plus  </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Nous possÃ©dons des vÃ©hicules pour 6 personnes + chauffeur mais nous pouvons mettre 2 vÃ©hicules pour plus de 6 personnes. Pour plus d'informations n'hÃ©sitez pas de contacter sur notre site web KechCasaAeroport.com </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Nous possédons des véhicules pour 6 personnes + chauffeur mais nous pouvons mettre 2 véhicules pour plus de 6 personnes. Pour plus d'informations n'hésitez pas de contacter sur notre site web KechCasaAeroport.com </textarea>
 		</div>
 	</div>
     
@@ -516,7 +516,7 @@ Etapes Ã  suivre : <br>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">J'ai testÃ© les services offert par KechCasaAeroport, c'Ã©tait magnifique.</p>
+                    <p class="mb-5">J'ai testé les services offert par KechCasaAeroport, c'était magnifique.</p>
                     <p class="name">Adil Elmane</p>
                    
                   </div>
@@ -544,7 +544,7 @@ Etapes Ã  suivre : <br>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">J'espÃ¨re que groupe KechCasaAeroport dÃ©veloppera le projet pour inclure le reste des villes du Maroc</p>
+                    <p class="mb-5">J'espère que groupe KechCasaAeroport développera le projet pour inclure le reste des villes du Maroc</p>
                     <p class="name">Hassan Hassani</p>
                     
                   </div>
