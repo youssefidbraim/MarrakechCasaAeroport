@@ -51,8 +51,7 @@
     <!-- morrisjs JS
 		============================================ -->
     <script src="js/morrisjs/raphael-min.js"></script>
-    <script src="js/morrisjs/morris.js"></script>
-    <script src="js/morrisjs/morris-active.js"></script>
+    
     <!-- morrisjs JS
 		============================================ -->
     <script src="js/sparkline/jquery.sparkline.min.js"></script>
