@@ -19,10 +19,12 @@
 <h2>
   INSCRIPTION
   </h2>
-        <div class="row block-9">
+  
+  
+        <div class="row">
         <form:form method="post" modelAttribute="client">
         <form:hidden path="id" />
-          <div class="col-md-6 ">
+         
             
               <div class="form-group">
                 <form:input path="nom" type="text" class="form-control" placeholder="NOM *" />
@@ -34,24 +36,23 @@
                 <form:input path="email" type="text" class="form-control" placeholder="Email"/>
               </div>
           
-          </div>
-
-          <div class="col-md-6">
-          
-           
             <div class="form-group">
               <form:input path="telephone" type="text" class="form-control" placeholder="TÉLÉPHONE PORTABLE *"/>
             </div>
+          
+
+          
+           
             <div class="form-group">
               <form:input path="login" type="text" class="form-control" placeholder="Psuedo" />
             </div>
             <div class="form-group">
-              <form:input path="password" type="text" class="form-control" placeholder="Mot de passe" />
+              <form:input path="password" type="password" class="form-control" placeholder="Mot de passe" />
             </div>
             <div class="form-group">
-              <form:input path="description" type="submit" value="S'inscrire" class="btn btn-primary py-3 px-5" />
-            </div>
-            </div>
+                <input type="submit" value="S'inscrire" class="btn btn-primary py-3 px-5">
+              </div>
+         
           </form:form>
 
 
