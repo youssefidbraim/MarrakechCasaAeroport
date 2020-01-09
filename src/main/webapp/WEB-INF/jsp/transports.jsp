@@ -53,16 +53,11 @@
                                     <tr>
                                         <td>${trans.matricule}</td>
                                         
-                                        <c:if test="${trans.etat == 'disponible'}  ">
+                                        
                                         <td>
                                             <button class="pd-setting">${trans.etat}	</button>
                                         </td>
-                                        </c:if>
-                                        <c:if test="${trans.etat} != 'disponible' ">
-                                        <td>
-                                            <button class="pd-setting" style="background: #D80027;">${trans.etat}	</button>
-                                        </td>
-                                        </c:if>
+                                        
                                         <td> <img src="uploads/${trans.image}" alt="" width="80px" height="80px"></td>
                                         <td>${trans.marque}</td>
                                        
