@@ -302,7 +302,7 @@
     			<div class="col-md-4">
     				<div class="intro ftco-animate">
     					<h3><span>03</span> Securité et Relaxation</h3>
-    					<p>En plus de ça, les services sont associés Ã  la sécurité du client et au confort complet lors de son transfert de point de depart souhaité jusqu'Ã  l'aeroport. </p>
+    					<p>En plus de ça, les services sont associés à la sécurité du client et au confort complet lors de son transfert de l'aeroport jusqu'à le point d'arrivé souhaité  . </p>
     				</div>
     			</div>
     		</div>
@@ -316,16 +316,16 @@
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
           <h2 class="mb-4">SERVICES</h2>
-           <p>En vue de simplifier l€'utilisation de nos services Ã  nos clients, nous avons mis en place un guide avec toutes les informations nécessaires pour comprendre les services proposés par notre site web. </p>
+           <p>En vue de simplifier l€'utilisation de nos services à nos clients, nous avons mis en place un guide avec toutes les informations nécessaires pour comprendre les services proposés par notre site web. </p>
         
         </div>
         <div>
   				<p>
   				
 <div class="icon"><span class="icon-map-marker"></span> Localiser les aeroports du Marrakech et Casablanca.</div>	 <br/>
-<div class="icon"><span class="icon-male"></span> Donner la possibilité au client de choisir le véhicule souhaité pour le mener vers lâ€™aéroport Ã  partir dâ€™une liste des véhicules disponibles. </div>	  <br/>
-<div class="icon"><span class="icon-road"></span> Donner plus de détails sur le temps dâ€™arrivé et la durée entre l'aeroport et le point de départ choisi par notre client.</div>	<br/>
-<div class="icon"><span class="icon-usd"></span> Informer le client sur les prix du voyage de chaque type de véhicule pour quâ€™il puisse décider le véhicule souhaité selon les contraintes financières et celle de la comfort.</div>	
+<div class="icon"><span class="icon-male"></span> Donner la possibilité au client de choisir le véhicule souhaité pour le mener vers l€'aéroport à  partir d'€™une liste des véhicules disponibles. </div>	  <br/>
+<div class="icon"><span class="icon-road"></span> Donner plus de détails sur le temps d'arrivé et la durée entre l'aeroport et le point d'arrivé choisi par notre client.</div>	<br/>
+<div class="icon"><span class="icon-usd"></span> Informer le client sur les prix du voyage de chaque type de véhicule pour qu'€™il puisse décider le véhicule souhaité selon les contraintes financières et celle de la comfort.</div>	
   				
   				</p>
   					</div>
@@ -468,9 +468,9 @@
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 2
-  				<p> Est ce qu'il y a des chauffeurs "femmes" ? Je préfère Ãªtre accompagnée par une femme   </p>   
+  				<p> Est ce qu'il y a des chauffeurs "femmes" ? Je préfère etre accompagnée par une femme   </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Merci pour votre intérÃªt pour KechCasaAeroport "KCA". Pour l'instant, tous les chauffeurs sont des hommes, mais nous allons y réfléchir sérieusement. Nous vous tenons au courant dans les plus brefs délais.  </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Merci pour votre intéret pour KechCasaAeroport "KCA". Pour l'instant, tous les chauffeurs sont des hommes, mais nous allons y réfléchir sérieusement. Nous vous tenons au courant dans les plus brefs délais.  </textarea>
 		</div>
 	</div>
     
@@ -480,7 +480,7 @@
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 3
   				<p> Quelle est la gamme de voiture de luxe disponible </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled >  Pour l'instant nous n'avons que des mini vans, nous aurons bientÃ´t des voitures de luxe de type Berlines.   </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled >  Pour l'instant nous n'avons que des mini vans, nous aurons bientot des voitures de luxe de type Berlines.   </textarea>
 		</div>
 	</div>
     
@@ -500,7 +500,7 @@
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 5
   				<p>  L'offre que vous proposez sur XX a 199 dh pour une navette one way : est-ce le prix par personne ou pour l'ensemble des voyageurs (nous serions 2) ? </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled >  le prix est par voiture. Les mini vans peuvent prendre jusqu'Ã  6 passagers. </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled >  le prix est par voiture. Les mini vans peuvent prendre jusqu'à  6 passagers. </textarea>
 		</div>
 	</div>
     
@@ -508,9 +508,9 @@
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 6
-  				<p> J'aimerais bien me renseigner a propos des tarifs de transfert de Ain chok vers l'aéroport International Mohammed V de Casablanca </p>   
+  				<p> J'aimerais bien me renseigner a propos des tarifs de transfert de l'aéroport International Mohammed V de Casablanca vers Ain chok   </p>   
 			  <span class="caret"></span></button>
-  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Vous pouvez connaitre le tarifs du transfert directement Ã  partir de notre site internet. Une fois que vous aurez indiqué votre itinéraire, le prix de la course s'affichera automatiquement. </textarea>
+  				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Vous pouvez connaitre le tarifs du transfert directement à  partir de notre site internet. Une fois que vous aurez indiqué votre itinéraire, le prix de la course s'affichera automatiquement. </textarea>
 		</div>
 	</div>
     
@@ -518,7 +518,7 @@
      <div class="col-md-7 text-center">
     	<div class="dropdown">
     		 <button class="btn btn-primary dropdown-toggle" style="width: 170% !important" type="button" data-toggle="dropdown">Question 7
-  				<p>  Quel est le prix pour la mise Ã  disposition d'un chauffeur pour me conduire avec 2 autres Ã  marrakech le 10/01 et un retour le 13/01 ? </p>   
+  				<p>  Quel est le prix pour la mise à  disposition d'un chauffeur pour me conduire avec 2 autres à  marrakech le 10/01 et un retour le 13/01 ? </p>   
 			  <span class="caret"></span></button>
   				<textarea class="dropdown-menu" style="resize: none;" rows="4" cols="100%" disabled > Nous vous informons que le transfert Casablanca/Marrakech (aller/retour) est de 750,00Dh par transfert.  </textarea>
 		</div>
