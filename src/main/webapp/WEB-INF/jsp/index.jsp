@@ -334,7 +334,7 @@
 		            <div class="block-18 text-center">
 		              <div class="text">
 		                <strong class="number" data-number="2300">0</strong>
-		                <span>Clients satisfés par sécurité et relaxation</span>
+		                <span>Clients satisfis par sécurité et relaxation</span>
 		              </div>
 		            </div>
 		          </div>
