@@ -578,7 +578,7 @@
                   </div>
                   <div class="text">
                     <p class="mb-5">Meilleur services surtout au niveau de la relaxation.</p>
-                    <p class="name">Youssef Idbraim</p>
+                    <p class="name">Youssef Idbraimm</p>
                     
                   </div>
                 </div>
