@@ -236,7 +236,7 @@
 
   
 		
-		<section class="ftco-about d-md-flex">
+		<section id="serv" class="ftco-about d-md-flex">
     	<div class="one-half img" style="background-image: url(img/backgrofficiel.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
@@ -374,7 +374,7 @@
     </section>
 
 
-    <section class="ftco-section services-section bg-light"> 
+    <section id="qanda" class="ftco-section services-section bg-light"> 
      <div class="text-center">
      <h2 class="mb-4"> VOS QUESTIONS & NOS REPONSES</h2>
               </div>

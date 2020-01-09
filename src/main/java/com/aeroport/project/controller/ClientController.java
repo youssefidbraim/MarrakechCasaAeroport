@@ -43,10 +43,10 @@ public class ClientController {
 		return "index";
 	}
 	
-	@RequestMapping(value = "/hotel", method = RequestMethod.GET)
+	@RequestMapping(value = "/addclient", method = RequestMethod.GET)
 	public String showPage(ModelMap model) {
 		model.put("name", getLoggedinUserName());
-		return "hotel";
+		return "AddClient";
 	}
 	
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
