@@ -6,7 +6,7 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate mb-5 pb-5 text-center text-md-left" data-scrollax=" properties: { translateY: '70%' }">
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Découvrir <br></h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Vous emmène du point de départ souhaité jusquÃ  l'aéroport</p>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Vous emmène du point de départ souhaité jusqu'à  l'aéroport</p>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@
 Étapes à suivre : <br> 
 <button type="button" class="btn btn-warning">1.</button> INDIQUEZ VOTRE ITINERAIRE 
 <button type="button" class="btn btn-warning">2.</button> CONSULTEZ LE PRIX ET LA DISTANCE 
-<button type="button" class="btn btn-warning">3.</button> CONFIRMEZ VOTRE RE‰SERVATION
+<button type="button" class="btn btn-warning">3.</button> CONFIRMEZ VOTRE RESERVATION
 
               	</form>
               </div>
@@ -114,103 +114,6 @@
               	<form action="#" class="search-destination">
               			<div class="row">
               			<div class="col-md align-items-end">
-              			
-              			
-              			
-              			<div id="map" style="width:100%;height:200px;"></div>
-<script
-    src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
- <script>
-            window.onload = function () {
-                $("#l1").addClass("active");
-            };
-
-            var map;
-            var marker;
-            var centerPosition;
-            function initMap() {
-                centerPosition = {lat: 31.663738, lng: -7.968356};
-                var geocoder = new google.maps.Geocoder;
-                map = new google.maps.Map(document.getElementById('map'), {
-                    center: centerPosition,
-                    zoom: 6
-                });
-                var infoWindow = new google.maps.InfoWindow({map: map});
-                // Try HTML5 geolocation.
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(function (position) {
-                        var pos = {
-                            lat: position.coords.latitude,
-                            lng: position.coords.longitude
-                        };
-                        centerPosition = pos;
-                        addMarker(centerPosition);
-                        document.getElementById('formId:lat').setAttribute("value", "" + centerPosition.lat);
-                        document.getElementById('formId:lng').setAttribute("value", "" + centerPosition.lng);
-                        geocodeLatLng(geocoder, map, infoWindow, pos);
-                    }, function () {
-                        handleLocationError(true, infoWindow, map.getCenter());
-                    });
-                } else {
-                    // Browser doesn't support Geolocation
-                    handleLocationError(false, infoWindow, map.getCenter());
-                }
-                map.addListener('click', function (event) {
-                    centerPosition = event.latLng;
-                    document.getElementById('formId:lat').setAttribute("value", "" + centerPosition.lat());
-                    document.getElementById('formId:lng').setAttribute("value", "" + centerPosition.lng());
-                    addMarker(event.latLng);
-                    geocodeLatLng(geocoder, map, infoWindow, event.latLng);
-
-                });
-            }
-
-            function addMarker(location) {
-                if (marker) {
-                    marker.setPosition(location);
-                } else {
-                    marker = new google.maps.Marker({
-                        position: location,
-                        map: map
-                    });
-                }
-            }
-
-            function geocodeLatLng(geocoder, map, infowindow, latlng) {
-
-                geocoder.geocode({'location': latlng}, function (results, status) {
-                    if (status === 'OK') {
-                        if (results[1]) {
-                            infowindow.setContent(results[1].formatted_address);
-                            infowindow.open(map, marker);
-                            document.getElementById('formId:address').setAttribute("value", "" + results[1].formatted_address);
-                            document.getElementById('formId:address').focus();
-                        } else {
-                            window.alert('No results found');
-                        }
-                    } else {
-                        window.alert('Geocoder failed due to: ' + status);
-                    }
-                });
-            }
-
-            function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-                infoWindow.setPosition(pos);
-                infoWindow.setContent(browserHasGeolocation ?
-                        'Error: The Geolocation service failed.' :
-                        'Error: Your browser doesn\'t support geolocation.');
-            }
-        </script>
-              			
-              			
-              			
-              			
-              			
-              			
-              			
-              			
-              			
-              			
               			
               			
               			</div>
@@ -271,7 +174,7 @@
 Étapes à suivre : <br> 
 <button type="button" class="btn btn-warning">1.</button> INDIQUEZ VOTRE ITINERAIRE SUR MAP
 <button type="button" class="btn btn-warning">2.</button> CONSULTEZ LE PRIX ET LA DISTANCE 
-<button type="button" class="btn btn-warning">3.</button> CONFIRMEZ VOTRE RE‰SERVATION
+<button type="button" class="btn btn-warning">3.</button> CONFIRMEZ VOTRE RESERVATION
 
               		
               	</form>
@@ -316,16 +219,16 @@
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
           <h2 class="mb-4">SERVICES</h2>
-           <p>En vue de simplifier l€'utilisation de nos services à nos clients, nous avons mis en place un guide avec toutes les informations nécessaires pour comprendre les services proposés par notre site web. </p>
+           <p>En vue de simplifier l'utilisation de nos services à nos clients, nous avons mis en place un guide avec toutes les informations nécessaires pour comprendre les services proposés par notre site web. </p>
         
         </div>
         <div>
   				<p>
   				
 <div class="icon"><span class="icon-map-marker"></span> Localiser les aeroports du Marrakech et Casablanca.</div>	 <br/>
-<div class="icon"><span class="icon-male"></span> Donner la possibilité au client de choisir le véhicule souhaité pour le mener vers l€'aéroport à  partir d'€™une liste des véhicules disponibles. </div>	  <br/>
+<div class="icon"><span class="icon-male"></span> Donner la possibilité au client de choisir le véhicule souhaité pour le mener vers l'aéroport à  partir d'une liste des véhicules disponibles. </div>	  <br/>
 <div class="icon"><span class="icon-road"></span> Donner plus de détails sur le temps d'arrivé et la durée entre l'aeroport et le point d'arrivé choisi par notre client.</div>	<br/>
-<div class="icon"><span class="icon-usd"></span> Informer le client sur les prix du voyage de chaque type de véhicule pour qu'€™il puisse décider le véhicule souhaité selon les contraintes financières et celle de la comfort.</div>	
+<div class="icon"><span class="icon-usd"></span> Informer le client sur les prix du voyage de chaque type de véhicule pour qu'il puisse décider le véhicule souhaité selon les contraintes financières et celle de la comfort.</div>	
   				
   				</p>
   					</div>
