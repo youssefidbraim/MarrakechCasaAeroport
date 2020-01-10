@@ -162,6 +162,12 @@
 					              </div>
 				              </div>
               			</div>
+              	
+              		  <div align="left">
+   <input type="text" value="" id="searchbox" style=" width:800px;height:30px; font-size:15px;">
+  </div>
+  <div align="left" id="map" style="width:800px; height: 600px; margin-top: 10px;">  
+  </div>
               		
               			<div class="col-md align-self-end">
               				<div class="form-group">
