@@ -24,10 +24,12 @@
 	                <li><span class="icon icon-map-marker"></span><span class="text">Faculté de Science et Technique Marrakech</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+212 6 92 39 29 10</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@KechCasaAeroport.com</span></a></li>
+	                </ul>
 	           <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+	           
 	             <li class="ftco-animate"><a href="#"><span class="icon-credit-card"></span></a> MasterCard - VISA </li> 
 	             </ul>
-	              </ul>
+	           
 	            </div>
             </div>
           </div>
@@ -52,6 +54,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
   <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/> 
 
+
   <script src="SiteClient/js/jquery.min.js"></script>
   <script src="SiteClient/js/jquery-migrate-3.0.1.min.js"></script>
   <script src="SiteClient/js/popper.min.js"></script>
@@ -65,10 +68,17 @@
   <script src="SiteClient/js/jquery.animateNumber.min.js"></script>
   <script src="SiteClient/js/bootstrap-datepicker.js"></script>
   <script src="SiteClient/js/scrollax.min.js"></script>
+<<<<<<< HEAD
  
   <script src="SiteClient/js/google-map.js"></script>
+=======
+
+>>>>>>> 79892417aee9829fa3d04294b0e8b5560584d008
   <script src="SiteClient/js/main.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
     
+<<<<<<< HEAD
     
     <script type="text/javascript">
  $(document).ready(function(){
@@ -131,5 +141,8 @@
 </script>
     
     
+=======
+
+>>>>>>> 79892417aee9829fa3d04294b0e8b5560584d008
   </body>
 </html>

@@ -25,7 +25,7 @@
                             
                         </li>
                         <li>
-                            <a class="has-arrow" href="clients" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Clients</span></a>
+                            <a class="has-arrow" href="list-client" aria-expanded="false"><span class="educate-icon educate-student icon-wrap"></span> <span class="mini-click-non">Clients</span></a>
                             
                         </li>
                         <li>
