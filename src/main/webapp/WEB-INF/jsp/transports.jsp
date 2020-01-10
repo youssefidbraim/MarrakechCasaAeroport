@@ -35,7 +35,7 @@
                         <div class="product-status-wrap drp-lst">
                             <h4>Transport List</h4>
                             <div class="add-product">
-                                <a href="addTransport">Add Transport</a>
+                                <a href="addTransport">Ajouter Transport</a>
                             </div>
                             <div class="asset-inner">
                                 <table>
