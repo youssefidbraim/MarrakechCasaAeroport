@@ -342,11 +342,11 @@
 		            <div class="block-18 text-center">
 		              <div class="text">
 		                <strong class="number" data-number="2300">0</strong>
-<<<<<<< HEAD
+
 		                <span>Clients satisfés par sécurité et relaxation</span>
-=======
-		                <span>Clients satisfis par sécurité et relaxation</span>
->>>>>>> 455fb786b5fdbf1128a25716fa92564181319de6
+
+		               
+
 		              </div>
 		            </div>
 		          </div>
